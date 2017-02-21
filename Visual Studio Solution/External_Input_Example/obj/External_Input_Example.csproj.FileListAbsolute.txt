@@ -1,0 +1,5 @@
+C:\Users\scoleman.ARAS-CORP\Documents\Visual Studio 2005\Projects\External_Input_Example\External_Input_Example\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\scoleman.ARAS-CORP\Documents\Visual Studio 2005\Projects\External_Input_Example\External_Input_Example\bin\External_Input_Example.dll
+C:\Users\scoleman.ARAS-CORP\Documents\Visual Studio 2005\Projects\External_Input_Example\External_Input_Example\bin\External_Input_Example.pdb
+C:\Users\scoleman.ARAS-CORP\Documents\Visual Studio 2005\Projects\External_Input_Example\External_Input_Example\obj\Debug\External_Input_Example.dll
+C:\Users\scoleman.ARAS-CORP\Documents\Visual Studio 2005\Projects\External_Input_Example\External_Input_Example\obj\Debug\External_Input_Example.pdb
