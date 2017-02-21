@@ -25,9 +25,21 @@ Internet Explorer 11, Firefox 38 ESR, Chrome
 
 1. Open the solution in Visual Studio.
 2. Start the External_Input_Example project.
-3. When the web page loads, enter the log in credentials for the preferred Aras Innovator instance and the new PR data.
-4. Click submit.
-5. Once the connection is made and the new PR is created with the data provided by the user, a confirmation window will appear.
+3. Wait for the the web page to load
+
+![Customized Dashboard](./Screenshots/PR%20Web%20Page.PNG)
+*The initial PR Web Page*
+
+4. Enter the log in credentials for the preferred Aras Innovator instance and the new PR data.
+
+![Customized Dashboard](./Screenshots/PR%20Web%20Page%20Filled%20In.PNG)
+*The PR Web Page with log in credentials and PR data filled out*
+
+5. Click submit.
+6. Once the connection is made and the new PR is created with the data provided by the user, a confirmation window will appear.
+
+![Customized Dashboard](./Screenshots/PR%20Web%20Page%20Result.PNG)
+*The result from a successfully submitted PR*
 
 ## Contributing
 
