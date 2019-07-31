@@ -8,14 +8,14 @@
     <style type="text/css">
 
         body {
-            height: 100%;
-            width: 100%; 
+            height: 98%;
+            width: 98%; 
         } 
 
         form {
             width: 98%;  
             padding-left: 1%;   
-            font: 22px Century Gothic,CenturyGothic,AppleGothic,sans-serif;                            
+            font: 22px Arial, sans-serif;                            
             text-transform: uppercase;          
         }  
 
@@ -28,7 +28,7 @@
         .user_group {           
             display: inline-block; 
             width: 49%;
-            padding: 0% 0% 0% 1%;        
+            padding: 0.5em 0.5em 0.5em 0.5em;        
         }
 
         .user_group:last-child {
@@ -49,7 +49,7 @@
         .pr_group {           
             display: inline-block; 
             width: 98%; 
-            padding: 0% 1% 0% 1%;       
+            padding: 1% 1% 1% 1%;       
         }
 
 
@@ -73,7 +73,7 @@
             border-radius: 0px 0px 15px 15px;
             border: 2px solid #D9DEDF; 
             text-transform: uppercase;    
-            font: 36px Century Gothic,CenturyGothic,AppleGothic,sans-serif;                   
+            font: 36px Arial,sans-serif;                   
         }
                 
         input[type="text"],
@@ -90,18 +90,18 @@
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
-            background-color: #e8eeef;
+            background-color: #ddd3ce;
             color: #8a97a0;
             -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
             box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
             border: 1px solid #D9DEDF;
             color: #000;
-            font: 12px Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+            font: 12px Arial,sans-serif; 
         }
 
         input[type="submit"] {            
             color: #FFF;            
-            background: #D9DEDF;
+            background: #cc1c1c;
             text-align: center;
             font-style: normal;
         }
@@ -110,7 +110,7 @@
         input[type="password"]:focus,
         textarea:focus,
         select:focus {
-            background: #d2d9dd;
+            background: #ead092;
         }
 
         input[type="submit"]:hover {
@@ -128,22 +128,22 @@
             <div id="user_entry_div" class="user_entry_div">
                 <div class="user_group">
                     <div class="user_field">
-                        <asp:Label ID="url_label" runat="server" Text="URL" ></asp:Label>
-                        <asp:TextBox ID="url_text" runat="server"></asp:TextBox>
+                        <asp:Label ID="url_label" runat="server" Text="URL" Font-Names="Arial" ></asp:Label>
+                        <asp:TextBox ID="url_text" runat="server" Font-Names="Arial" placeholder="http://localhost/yourserver"></asp:TextBox>
                     </div>
                     <div class="user_field">
-                        <asp:Label ID="db_label" runat="server" Text="Database"></asp:Label>
-                        <asp:TextBox ID="db_text" runat="server"></asp:TextBox>
+                        <asp:Label ID="db_label" runat="server" Text="Database" Font-Names="Arial"></asp:Label>
+                        <asp:TextBox ID="db_text" runat="server" Font-Names="Arial" placeholder="InnovatorSolutions"></asp:TextBox>
                     </div>
                 </div>
                 <div class="user_group">
                     <div class="user_field">
-                        <asp:Label ID="user_label" runat="server" Text="Username"></asp:Label>
-                        <asp:TextBox ID="user_text" runat="server"></asp:TextBox>
+                        <asp:Label ID="user_label" runat="server" Text="Username" Font-Names="Arial"></asp:Label>
+                        <asp:TextBox ID="user_text" runat="server" Font-Names="Arial" placeholder="login"></asp:TextBox>
                     </div>
                     <div class="user_field">
-                        <asp:Label ID="password_label" runat="server" Text="Password"></asp:Label>
-                        <asp:TextBox ID="password_text" runat="server" Textmode="Password"></asp:TextBox>
+                        <asp:Label ID="password_label" runat="server" Text="Password" Font-Names="Arial"></asp:Label>
+                        <asp:TextBox ID="password_text" runat="server" Textmode="Password" Font-Names="Arial" placeholder="password"></asp:TextBox>
                     </div>
                 </div>                                                                                               
             </div>  
@@ -151,16 +151,16 @@
             <div id="pr_entry_div" class="pr_entry_div">
                 <div class="pr_group">
                     <div class="pr_field">
-                        <asp:Label ID="LabelTitle" runat="server" Text="PR Title:"></asp:Label>
-                        <asp:TextBox ID="PRTitle" runat="server"></asp:TextBox>
+                        <asp:Label ID="LabelTitle" runat="server" Text="PR Title:" Font-Names="Arial"></asp:Label>
+                        <asp:TextBox ID="PRTitle" runat="server" Font-Names="Arial" placeholder="Your Title Here"></asp:TextBox>
                     </div>
                     <div class="pr_field">
-                        <asp:Label ID="DescLabel" runat="server" Text="PR Description:" ></asp:Label>
-                        <asp:TextBox ID="PRDesc" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        <asp:Label ID="DescLabel" runat="server" Text="PR Description:" Font-Names="Arial" ></asp:Label>
+                        <asp:TextBox ID="PRDesc" runat="server" TextMode="MultiLine" Font-Names="Arial" placeholder="Your Description"></asp:TextBox>
                     </div>
                     <div class="pr_field">
-                        <asp:Label ID="LabelStep" runat="server" Text="PR Steps to Repeat:"></asp:Label>
-                        <asp:TextBox ID="PRStepsRepeat" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        <asp:Label ID="LabelStep" runat="server" Text="PR Steps to Repeat:" Font-Names="Arial"></asp:Label>
+                        <asp:TextBox ID="PRStepsRepeat" runat="server" TextMode="MultiLine" Font-Names="Arial" placeholder="Steps to Follow"></asp:TextBox>
                     </div>
                 </div>
             </div>

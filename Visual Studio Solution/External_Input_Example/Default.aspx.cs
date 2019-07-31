@@ -1,5 +1,5 @@
-using System;
 using Aras.IOM;
+using System;
 
 namespace External_Input_Example
 {
@@ -7,23 +7,23 @@ namespace External_Input_Example
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void Submit_Click(object sender, EventArgs e)
         {
-
             string myTitle = PRTitle.Text;
             string myDescription = PRDesc.Text;
             string mySteps2Rep = PRStepsRepeat.Text;
             if (myTitle == "" || myDescription == "")
-                Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "MyAlert", "<script>alert('Please fill in required fields of PR Title and PR Description!!!')</script>");
+            {
+                Page.ClientScript.RegisterClientScriptBlock(GetType(), "MyAlert", "<script>alert('Please fill in required fields of PR Title and PR Description!!!')</script>");
+            }
             else
             {
-                String url = url_text.Text;
-                String db = db_text.Text;
-                String user = user_text.Text;
-                String password = password_text.Text;
+                string url = url_text.Text;
+                string db = db_text.Text;
+                string user = user_text.Text;
+                string password = password_text.Text;
                 HttpServerConnection conn = IomFactory.CreateHttpServerConnection(url, db, user, password);
                 Item login_result = conn.Login();
                 if (login_result.isError())
@@ -38,7 +38,7 @@ namespace External_Input_Example
                 myPR.apply();
 
                 conn.Logout();
-                Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "MyAlert", "<script>alert('Your PR was created successfully!!!')</script>");
+                Page.ClientScript.RegisterClientScriptBlock(GetType(), "MyAlert", "<script>alert('Your PR was created successfully!!!')</script>");
             }
         }
     }
