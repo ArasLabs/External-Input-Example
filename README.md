@@ -45,7 +45,7 @@ You will need to point the solution at the correct IOM file for your instance of
 1. Open the solution in Visual Studio.
 2. Start the External_Input_Example project.
    1. Select the browser you want to run it in.
-3. Wait for the the web page to load.
+3. Wait for the web page to load.
 4. Enter the log in credentials for the preferred Aras Innovator instance and the new PR data.
 5. Click the submit button.
 6. Once the connection is made and the new PR is created with the data provided by the user, a confirmation window will appear.
