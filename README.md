@@ -50,7 +50,7 @@ You will need to point the solution at the correct IOM file for your instance of
 5. Click the submit button.
 6. Once the connection is made and the new PR is created with the data provided by the user, a confirmation window will appear.
 
-![Customized Dashboard](./Screenshots/PR-WebPage2.PNG)
+![Customized Dashboard](./Screenshots/PR-WebPage2.png)
 *The PR Web Page with placeholders*
 
 ## Contributing
